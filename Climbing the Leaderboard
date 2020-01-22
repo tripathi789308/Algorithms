@@ -1,5 +1,7 @@
 //https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?h_r=next-challenge&h_v=zen
 //This function will return a vector of Rank of the Climbing Leaderboard:-
+#include<iostream>
+using namespace std;
 vector<int> climbingLeaderboard(vector<int> scores, vector<int> alice) {
     int r=0,i=0;
     int sizeofa=alice.size()-1;
