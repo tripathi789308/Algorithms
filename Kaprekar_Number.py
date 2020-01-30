@@ -1,5 +1,5 @@
-//https://www.hackerrank.com/challenges/kaprekar-numbers
-//funtion returns whether a number is karpreker number
+#https://www.hackerrank.com/challenges/kaprekar-numbers
+#funtion returns whether a number is karpreker number
 def check(n):
     ns=str(n)
     d=len(ns)
@@ -14,4 +14,4 @@ def check(n):
         if s==n:
             return True
     return False 
-    
+check(n)   
